@@ -49,9 +49,9 @@ font-size: 2rem;
 font-weight: 400;
 line-height: 3rm;
 text-align: left;
- }
+}
 .texto-ingresado::placeholder{
-    color: #0A3871; 
+color: #0A3871; 
 }
 .texto-ingresado:focus,
 .texto-ingresado:active{
@@ -229,7 +229,7 @@ footer p{
 
 
 
-/*tablet*/
+/*tablet
 @media(max-width:769px)
 {
    .header-logo{
@@ -352,7 +352,7 @@ footer p{
     margin-top: 20%;
    }
    .texto-ingresado{
-    width:38%;
+    width:auto;
     height:150% ;
     margin-left: -3%;
     margin-top: 20%;
@@ -389,7 +389,7 @@ footer p{
         margin-top: 20%;
     }
     .mensaje-solicitado{
-        width: 100%;
+        width: auto;
         background-image: none;
     }
     .titulo_parrafo{
@@ -406,9 +406,10 @@ footer p{
     font-size: 1.5rem;
    }
    footer{
-    width: 100%;
+    width: auto;
    }
    footer p{
+    width: auto;
     position: relative;
     color: aliceblue;
     font-family: "inter";
@@ -417,6 +418,7 @@ footer p{
    }
    .contactos{
     position: relative;
+    width: auto;
     left: -43%;
     top: 20%;
    }
