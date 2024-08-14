@@ -7,7 +7,7 @@ La letra "u" es convertida para "ufat" */
 
 
 
-
+let alertar= alert("Bienvenid@ al encriptador de texto, realizado por Lorens");
 
 const textoEnDescriptado = document.getElementById("texto").value;
 const mensaje=document.getElementById("mensaje");
