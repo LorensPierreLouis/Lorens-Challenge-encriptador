@@ -361,7 +361,7 @@ footer p{
    }
    .texto-ingresado{
     height: 100%;
-    width:85%;
+    width:90%;
     height:35%;
     margin-left: -3%;
     margin-top: 7%;
@@ -374,7 +374,7 @@ footer p{
     }
 
     .advertencia{
-        margin-top: -15%;
+        margin-top: -10%;
     }
     
     .botones{
@@ -383,15 +383,15 @@ footer p{
         gap: 10px;
         width: 100%;
         margin-left: -3%;
-        margin-top: 8%;
+        margin-top: 0%;
     }
     .botonencriptar{
-        width: 85%;
+        width: 90%;
         font-size: 1rem;
         padding: 10px;
     }
     .botondesencriptar{
-        width: 85%;
+        width: 90%;
         font-size: 1rem;
         padding: 10px;
     }
@@ -402,11 +402,11 @@ footer p{
         margin-left: 0px;
         top: 48%;
         height:40%;
-        width: 85%;
+        width: 90%;
     
     }
     .mensaje-solicitado{
-        width: 95%;
+        width: 90%;
         height: 65%;
         margin-left: 2%;
         margin-top: 5%;
@@ -423,7 +423,7 @@ footer p{
     
     .copiar{
         width: 100%;
-        margin-top: -6%;
+        margin-top: -3%;
     }
    .boton_copiar{
     width: 100%;
