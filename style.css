@@ -349,6 +349,7 @@ footer p{
     display: flex;
     flex-direction: column;
     margin-left:6%;
+
    }
    
    .encriptar_desencriptar{
@@ -407,7 +408,7 @@ footer p{
         height: 55%;
         margin-left: 2%;
         margin-top: 5%;
-        background-position: none;
+        background-image: none;
         
     }
     .titulo_parrafo{
