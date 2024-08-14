@@ -356,6 +356,7 @@ footer p{
    .encriptar_desencriptar{
     margin-top: 10%;
     margin-left: 6%;
+    height: 60%;
     
    }
    .texto-ingresado{
@@ -400,7 +401,7 @@ footer p{
         display: flex;
         margin-left: 0px;
         top: 48%;
-        height:50%;
+        height:40%;
         width: 85%;
     
     }
@@ -422,7 +423,7 @@ footer p{
     
     .copiar{
         width: 100%;
-        margin-top: -1%;
+        margin-top: -6%;
     }
    .boton_copiar{
     width: 100%;
