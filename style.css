@@ -408,7 +408,7 @@ footer p{
     }
 
     .advertencia{
-        margin-top: -5%;
+        margin-top: -10%;
     }
     
     .botones{
@@ -417,7 +417,7 @@ footer p{
         gap: 10px;
         width: 100%;
         margin-left: -3%;
-        margin-top: %;
+        margin-top: 7%;
     }
     .botonencriptar{
         width: 90%;
