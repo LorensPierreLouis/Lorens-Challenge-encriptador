@@ -179,7 +179,7 @@ outline: none;
     font-weight: 400;
     line-height: 19.36px;
     font-size: 1rem;
-    visibility: hidden;
+    visibility: visible;
 }
 .boton_copiar:hover{
     background-color: #0A3871;
@@ -349,7 +349,8 @@ footer p{
     display: flex;
     flex-direction: column;
     margin-left:6%;
-
+    height: 140%;
+    gap: 110px;
    }
    
    .encriptar_desencriptar{
@@ -396,16 +397,16 @@ footer p{
 
 
     .respuesta_recibida{
-        position: absolute;
+        display: flex;
         margin-left: 0px;
         top: 48%;
         height:50%;
         width: 85%;
-        margin-top: 40%;
+    
     }
     .mensaje-solicitado{
         width: 95%;
-        height: 55%;
+        height: 65%;
         margin-left: 2%;
         margin-top: 5%;
         background-image: none;
@@ -413,8 +414,7 @@ footer p{
     }
     .titulo_parrafo{
         font-size:1rem;
-        position: absolute;
-        top: 60%;
+    
         
     
         
@@ -422,7 +422,7 @@ footer p{
     
     .copiar{
         width: 100%;
-        margin-top: -7%;
+        margin-top: -1%;
     }
    .boton_copiar{
     width: 100%;
