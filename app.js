@@ -37,8 +37,10 @@ function botonDesencriptar(){
     if(document.getElementById("texto").value.length !=0){
         document.getElementById("mensaje").value=codigos;
         tituloDerecho.style.visibility='hidden';
-        copiado.style.visibility='visible';
+        copiado.style.visibility='hidden';
         mensaje.style.backgroundImage='none';
+        copiado.style.visibility='hidden';
+       
     }
 
 }
@@ -49,8 +51,8 @@ function botonCopiar(){
     alert("EL TEXTO COPIADO ES:" + (document.getElementById("mensaje").value));
     document.getElementById("texto").value="";
     document.getElementById("mensaje").value="";
-    tituloDerecho.style.visibility='visible';
-    mensaje.style.backgroundImage='';
+    tituloDerecho.style.visibility='hidden';
+    mensaje.style.backgroundImage='none';
     copiado.style.visibility='hidden';
    
 }

@@ -407,8 +407,8 @@ footer p{
         height: 55%;
         margin-left: 2%;
         margin-top: 5%;
-        background-color: #0A3871
-        background-image:none;
+        background-position: none;
+        
     }
     .titulo_parrafo{
         font-size:1rem;
