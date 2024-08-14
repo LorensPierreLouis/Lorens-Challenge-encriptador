@@ -332,10 +332,10 @@ footer p{
         width: 375px;
     }
    .header-logo{
-    width: 5%;
+    width: 10%;
     height: 3%;
-    top: 5%;
-    left: 1%;
+    top: 3%;
+    margin-left: 6%;
     gap: 0px;
     opacity: 0px;
    }
@@ -349,37 +349,43 @@ footer p{
    main{
     display: flex;
     flex-direction: column;
-    margin-left:1%;
+    margin-left:6%;
    }
-
+   
    .encriptar_desencriptar{
     margin-top: 20%;
+    margin-left: 6%;
    }
    .texto-ingresado{
+    position: fixed;
     width:auto;
-    height:150% ;
+    height:35%;
     margin-left: -3%;
-    margin-top: 20%;
+    margin-top: 7%;
     font-family: Inter;
     font-size: 2rem;
     font-weight: 400;
     line-height: 3rem;
     text-align: left;
     }
+    .advertencia{
+        margin-top: 95%;
+    }
     
     .botones{
         
         flex-direction: column;
-        gap: 40px;
+        gap: 10px;
         width: 100%;
         margin-left: -3%;
+        margin-top: 15%;
     }
     .botonencriptar{
-        width: 37%;
-        font-size: 1.5rem;
+        width: 85%;
+        font-size: 1rem;
     }
     .botondesencriptar{
-        width: 37%;
+        width: 85%;
         font-size: 1.5rem;
     }
 
@@ -389,15 +395,17 @@ footer p{
         margin-left: 0px;
         top: 57%;
         height:25%;
-        width: 36.5%;
+        width: 80%;
         margin-top: 20%;
     }
     .mensaje-solicitado{
-        width: auto;
-        background-image: none;
+        width: 100%;
+        height: 100%;
+        background-image:none;
     }
     .titulo_parrafo{
-        font-size:1.5rem;
+        font-size:1rem;
+    
         
     }
     
@@ -418,12 +426,13 @@ footer p{
     color: aliceblue;
     font-family: "inter";
     font-size: 1rem;
-   left: -20%;
+   left: 23%;
+   top: -20%;
    }
    .contactos{
     position: relative;
     width: auto;
-    left: -43%;
+    left: -30%;
     top: 20%;
    }
 
